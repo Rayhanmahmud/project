@@ -99,7 +99,11 @@ ob_start();
 											<p><?php echo esc_html($element_des_three);?></p>
 										</dd>
 									</dl>                           
-
+	</div>
+						</div>
+					</div>
+				</div>
+			</section>
 
 <?php
 

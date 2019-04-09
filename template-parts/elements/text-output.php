@@ -39,7 +39,11 @@ ob_start();
 									<p><?php echo esc_html($element_des_two);?></p>
 
    
-	
+		</div>
+						</div>
+					</div>
+				</div>
+			</section>
 
 <?php
 

@@ -46,7 +46,11 @@ ob_start();
 									</ul>
 
 
-
+	</div>
+						</div>
+					</div>
+				</div>
+			</section>
 
 
 <?php

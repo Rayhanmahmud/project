@@ -35,13 +35,16 @@ add_shortcode('element_section','project_element_header');
 
 
 
-     <?php
-
+    
+<?php
        //Text section
 
        
 require_once get_template_directory() . '/template-parts/elements/text-output.php';
 
+//button section
+
+require_once get_template_directory() . '/template-parts/elements/button-output.php';
 
 //Elements list section
 
@@ -50,6 +53,19 @@ require_once get_template_directory() . '/template-parts/elements/list-output.ph
 //Elements icon section
 
 require_once get_template_directory() . '/template-parts/elements/icon-output.php';
+
+//Action section
+
+require_once get_template_directory() . '/template-parts/elements/action-output.php';
+
+//Block section
+
+require_once get_template_directory() . '/template-parts/elements/block-output.php';
+
+
+//Table section
+
+require_once get_template_directory() . '/template-parts/elements/table-output.php';
 
 ?>
          

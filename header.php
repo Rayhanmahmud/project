@@ -19,9 +19,9 @@
 
 		<!-- Header -->
 			<header id="header">
-				<a class="logo" href="index.html">Industrious</a>
+				<a class="logo" href="<?php echo site_url();?>">Industrious</a>
 				<nav>
-					<a href="#menu">Menu</a>
+					<a href="">Menu</a>
 				</nav>
 			</header>
 

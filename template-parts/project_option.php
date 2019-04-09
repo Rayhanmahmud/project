@@ -31,6 +31,9 @@ vc_map(array(
 
   require_once get_template_directory() . '/template-parts/elements/text.php';
 
+  //button
+
+  require_once get_template_directory() . '/template-parts/elements/button.php';
   //elements list section
 
 
@@ -40,6 +43,17 @@ vc_map(array(
 
 require_once get_template_directory() . '/template-parts/elements/icon.php';
 
+//Action section
+
+require_once get_template_directory() . '/template-parts/elements/action.php';
+
+//Block section
+
+require_once get_template_directory() . '/template-parts/elements/block.php';
+
+//Table section
+
+require_once get_template_directory() . '/template-parts/elements/table.php';
 
 }
 add_action("vc_before_init","element_sec");
