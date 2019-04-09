@@ -14,17 +14,13 @@ shortcode_atts(array(
 
 ob_start();
 ?>
-
 <section id="banner">
 				<div class="inner">
 					<h1><?php echo esc_html($banner_title);?></h1>
 					<p><?php echo esc_html($banner_des);?></p>
 				</div>
-				<video autoplay loop muted playsinline src="images/banner.mp4"></video>
+				<video autoplay loop muted playsinline src="<?php echo get_template_directory_uri().'/images/banner.mp4'?>"></video>
 			</section>
-
-
-
 
 <?php
 

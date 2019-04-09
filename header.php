@@ -15,13 +15,13 @@
 		<?php wp_head();?>
 
 	</head>
-	<body class="is-preload">
+	<body <?php body_class();?>">
 
 		<!-- Header -->
 			<header id="header">
 				<a class="logo" href="<?php echo site_url();?>">Industrious</a>
 				<nav>
-					<a href="">Menu</a>
+					<a href="#menu">Menu</a>
 				</nav>
 			</header>
 
@@ -29,7 +29,7 @@
 		<?php 
 		
 		
-		require_once get_template_directory().'/template-parts/common/nav.php';
+		require_once get_template_directory() . '/template-parts/common/nav.php';
 		
 		
 		?>

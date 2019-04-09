@@ -1,13 +1,20 @@
-<nav id="menu">
+
+
+      <nav id="menu">
+        <ul class="links">
 				<?php 
 	 
                     wp_nav_menu(array(
                     
-                        'menu_location' => 'topmenu',
+                        'theme_location' => 'topmenu',
                         'menu_id' => 'menu',
                         'menu_class' => 'current_page_item'
 
                     ));
                     
                     ?>
+
+                    	</ul>
 			</nav>
+
+            
